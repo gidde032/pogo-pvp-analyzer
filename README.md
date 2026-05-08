@@ -14,7 +14,7 @@ For development (from a clone of this repo):
 ```bash
 python -m venv .venv
 source .venv/bin/activate
-pip install -e .[dev]
+pip install -e ".[dev]"
 ```
 
 Python 3.10 or newer is required.
@@ -54,10 +54,10 @@ pvp ask "What are my best options against steel types in Great League?" --league
 
 ```
 ╭──────────────────── Medicham  (Fighting/Psychic) ────────────────────╮
-│ CP 1496   Rank #1 of 6 (top 16.7%)   Score 100.0                      │
-│ IVs 1/15/14 @ L40.5      Stat product 2,094,891                       │
-│ Optimal moveset: COUNTER / ICE PUNCH / DYNAMIC PUNCH                  │
-╰───────────────────────────────────────────────────────────────────────╯
+│ CP 1496   Rank #1 of 6 (top 16.7%)   Score 100.0                     │
+│ IVs 1/15/14 @ L40.5      Stat product 2,094,891                      │
+│ Optimal moveset: COUNTER / ICE PUNCH / DYNAMIC PUNCH                 │
+╰──────────────────────────────────────────────────────────────────────╯
 ```
 
 ### Example output — `pvp team`
@@ -67,7 +67,7 @@ pvp ask "What are my best options against steel types in Great League?" --league
 ┏━━━━━┳━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━┓
 ┃ Pos ┃ Species         ┃ Moves           ┃ Covers       ┃
 ┡━━━━━╇━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━┩
-│ 1   │ Medicham        │ Counter / …     │ normal, ice, …│
+│ 1   │ Medicham        │ Counter / …     │ dark, ice, … │
 │ 2   │ Azumarill       │ Bubble / …      │ dragon, …    │
 │ 3   │ Registeel       │ Lock-On / …     │ fairy, ice, …│
 └─────┴─────────────────┴─────────────────┴──────────────┘
@@ -127,8 +127,6 @@ pytest --cov=pvp                 # coverage report — aim for 90%+
 The test suite is hermetic: `tests/conftest.py` redirects
 `PVP_ANALYZER_HOME` into a tmp dir and `PVP_ANALYZER_DB_URL` to
 `sqlite:///:memory:`, so no test ever touches the real cache or DB file.
-
-See `docs/phase-*-summary.md` for the build log.
 
 ## License
 
