@@ -1,0 +1,24 @@
+{
+  "roster": [
+    {
+      "species": "Medicham",
+      "pokedex_number": 308,
+      "attack_iv": 1,
+      "defense_iv": 15,
+      "stamina_iv": 14,
+      "level": 40.5,
+      "fast_move": "COUNTER",
+      "charge_move_1": "ICE_PUNCH",
+      "charge_move_2": "DYNAMIC_PUNCH",
+      "nickname": "Wall-breaker"
+    },
+    {
+      "species": "Registeel",
+      "attack_iv": 3,
+      "defense_iv": 15,
+      "stamina_iv": 15,
+      "level": 27.5,
+      "notes": "bulky pivot"
+    }
+  ]
+}

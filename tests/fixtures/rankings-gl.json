@@ -1,0 +1,134 @@
+[
+  {
+    "speciesId": "medicham",
+    "speciesName": "Medicham",
+    "dex": 308,
+    "types": ["fighting", "psychic"],
+    "rating": 96.4,
+    "score": 96.4,
+    "stats": {
+      "atk": 121.29,
+      "def": 141.68,
+      "hp": 141,
+      "product": 2422215
+    },
+    "moveset": ["COUNTER", "ICE_PUNCH", "DYNAMIC_PUNCH"],
+    "moves": {
+      "fastMoves": [{"moveId": "COUNTER", "uses": 1}],
+      "chargedMoves": [
+        {"moveId": "ICE_PUNCH", "uses": 1},
+        {"moveId": "DYNAMIC_PUNCH", "uses": 1}
+      ]
+    }
+  },
+  {
+    "speciesId": "stunfisk_galarian",
+    "speciesName": "Galarian Stunfisk",
+    "dex": 618,
+    "types": ["ground", "steel"],
+    "rating": 97.1,
+    "score": 97.1,
+    "stats": {
+      "atk": 113.08,
+      "def": 165.73,
+      "hp": 140,
+      "product": 2622913
+    },
+    "moveset": ["MUD_SHOT", "ROCK_SLIDE", "EARTHQUAKE"],
+    "moves": {
+      "fastMoves": [{"moveId": "MUD_SHOT", "uses": 1}],
+      "chargedMoves": [
+        {"moveId": "ROCK_SLIDE", "uses": 1},
+        {"moveId": "EARTHQUAKE", "uses": 1}
+      ]
+    }
+  },
+  {
+    "speciesId": "swampert",
+    "speciesName": "Swampert",
+    "dex": 260,
+    "types": ["water", "ground"],
+    "rating": 91.2,
+    "score": 91.2,
+    "stats": {
+      "atk": 123.7,
+      "def": 120.4,
+      "hp": 143,
+      "product": 2130321
+    },
+    "moveset": ["MUD_SHOT", "HYDRO_CANNON", "EARTHQUAKE"],
+    "moves": {
+      "fastMoves": [{"moveId": "MUD_SHOT", "uses": 1}],
+      "chargedMoves": [
+        {"moveId": "HYDRO_CANNON", "uses": 1},
+        {"moveId": "EARTHQUAKE", "uses": 1}
+      ]
+    }
+  },
+  {
+    "speciesId": "azumarill",
+    "speciesName": "Azumarill",
+    "dex": 184,
+    "types": ["water", "fairy"],
+    "rating": 89.7,
+    "score": 89.7,
+    "stats": {
+      "atk": 100.7,
+      "def": 125.0,
+      "hp": 190,
+      "product": 2392000
+    },
+    "moveset": ["BUBBLE", "ICE_BEAM", "PLAY_ROUGH"],
+    "moves": {
+      "fastMoves": [{"moveId": "BUBBLE", "uses": 1}],
+      "chargedMoves": [
+        {"moveId": "ICE_BEAM", "uses": 1},
+        {"moveId": "PLAY_ROUGH", "uses": 1}
+      ]
+    }
+  },
+  {
+    "speciesId": "registeel",
+    "speciesName": "Registeel",
+    "dex": 379,
+    "types": ["steel", "none"],
+    "rating": 88.5,
+    "score": 88.5,
+    "stats": {
+      "atk": 102.8,
+      "def": 201.5,
+      "hp": 129,
+      "product": 2670000
+    },
+    "moveset": ["LOCK_ON", "FOCUS_BLAST", "FLASH_CANNON"],
+    "moves": {
+      "fastMoves": [{"moveId": "LOCK_ON", "uses": 1}],
+      "chargedMoves": [
+        {"moveId": "FOCUS_BLAST", "uses": 1},
+        {"moveId": "FLASH_CANNON", "uses": 1}
+      ]
+    }
+  },
+  {
+    "speciesId": "talonflame",
+    "speciesName": "Talonflame",
+    "dex": 663,
+    "types": ["fire", "flying"],
+    "rating": 76.2,
+    "score": 76.2,
+    "stats": {
+      "atk": 119.0,
+      "def": 128.0,
+      "hp": 137,
+      "product": 2087072
+    },
+    "moveset": ["INCINERATE", "BRAVE_BIRD", "FLAME_CHARGE"],
+    "moves": {
+      "fastMoves": [{"moveId": "INCINERATE", "uses": 1}],
+      "chargedMoves": [
+        {"moveId": "BRAVE_BIRD", "uses": 1},
+        {"moveId": "FLAME_CHARGE", "uses": 1}
+      ]
+    }
+  }
+]

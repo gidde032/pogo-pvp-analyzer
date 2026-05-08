@@ -1,0 +1,396 @@
+{
+  "timestampMs": "1700000000000",
+  "itemTemplates": [
+    {
+      "templateId": "PLAYER_LEVEL_SETTINGS",
+      "playerLevel": {
+        "cpMultiplier": [
+          0.094,       0.16639787,  0.21573247,  0.25572005,  0.29024988,
+          0.32108766,  0.34921268,  0.37523559,  0.39956728,  0.4225,
+          0.44310755,  0.46279839,  0.48168495,  0.49985844,  0.51739395,
+          0.53435433,  0.55079269,  0.56675452,  0.58227891,  0.5974,
+          0.61215729,  0.62656713,  0.64065295,  0.65443563,  0.667934,
+          0.68116492,  0.69414365,  0.70688421,  0.71939909,  0.7317,
+          0.7377695,   0.74378943,  0.74976104,  0.75568551,  0.76156384,
+          0.76739717,  0.77318668,  0.77893275,  0.78463708,  0.7903,
+          0.8000,      0.80985,     0.81965,     0.82940,     0.83912,
+          0.84879,     0.85842,     0.86801,     0.87757,     0.88708,
+          0.896057
+        ]
+      }
+    },
+    {
+      "templateId": "V0308_POKEMON_MEDICHAM",
+      "pokemonSettings": {
+        "pokemonId": "MEDICHAM",
+        "type": "POKEMON_TYPE_FIGHTING",
+        "type2": "POKEMON_TYPE_PSYCHIC",
+        "stats": {
+          "baseAttack": 121,
+          "baseDefense": 152,
+          "baseStamina": 155
+        },
+        "quickMoves": ["COUNTER_FAST", "PSYCHO_CUT_FAST"],
+        "cinematicMoves": ["ICE_PUNCH", "DYNAMIC_PUNCH", "PSYCHIC"]
+      }
+    },
+    {
+      "templateId": "V0618_POKEMON_STUNFISK_GALARIAN",
+      "pokemonSettings": {
+        "pokemonId": "STUNFISK_GALARIAN",
+        "type": "POKEMON_TYPE_GROUND",
+        "type2": "POKEMON_TYPE_STEEL",
+        "stats": {
+          "baseAttack": 144,
+          "baseDefense": 171,
+          "baseStamina": 177
+        },
+        "quickMoves": ["MUD_SHOT_FAST", "METAL_CLAW_FAST"],
+        "cinematicMoves": ["ROCK_SLIDE", "EARTHQUAKE", "FLASH_CANNON"]
+      }
+    },
+    {
+      "templateId": "V0260_POKEMON_SWAMPERT",
+      "pokemonSettings": {
+        "pokemonId": "SWAMPERT",
+        "type": "POKEMON_TYPE_WATER",
+        "type2": "POKEMON_TYPE_GROUND",
+        "stats": {
+          "baseAttack": 208,
+          "baseDefense": 175,
+          "baseStamina": 225
+        },
+        "quickMoves": ["MUD_SHOT_FAST", "WATER_GUN_FAST"],
+        "cinematicMoves": ["HYDRO_CANNON", "EARTHQUAKE", "SLUDGE_WAVE"]
+      }
+    },
+    {
+      "templateId": "V0184_POKEMON_AZUMARILL",
+      "pokemonSettings": {
+        "pokemonId": "AZUMARILL",
+        "type": "POKEMON_TYPE_WATER",
+        "type2": "POKEMON_TYPE_FAIRY",
+        "stats": {
+          "baseAttack": 112,
+          "baseDefense": 152,
+          "baseStamina": 225
+        },
+        "quickMoves": ["BUBBLE_FAST", "ROCK_SMASH_FAST"],
+        "cinematicMoves": ["ICE_BEAM", "PLAY_ROUGH", "HYDRO_PUMP"]
+      }
+    },
+    {
+      "templateId": "V0379_POKEMON_REGISTEEL",
+      "pokemonSettings": {
+        "pokemonId": "REGISTEEL",
+        "type": "POKEMON_TYPE_STEEL",
+        "stats": {
+          "baseAttack": 143,
+          "baseDefense": 285,
+          "baseStamina": 190
+        },
+        "quickMoves": ["LOCK_ON_FAST", "METAL_CLAW_FAST"],
+        "cinematicMoves": ["FOCUS_BLAST", "FLASH_CANNON", "HYPER_BEAM"]
+      }
+    },
+    {
+      "templateId": "V0663_POKEMON_TALONFLAME",
+      "pokemonSettings": {
+        "pokemonId": "TALONFLAME",
+        "type": "POKEMON_TYPE_FIRE",
+        "type2": "POKEMON_TYPE_FLYING",
+        "stats": {
+          "baseAttack": 176,
+          "baseDefense": 124,
+          "baseStamina": 186
+        },
+        "quickMoves": ["INCINERATE_FAST", "PECK_FAST"],
+        "cinematicMoves": ["BRAVE_BIRD", "FLAME_CHARGE", "FIRE_BLAST"]
+      }
+    },
+    {
+      "templateId": "COMBAT_V0001_MOVE_COUNTER_FAST",
+      "combatMove": {
+        "uniqueId": "COUNTER_FAST",
+        "type": "POKEMON_TYPE_FIGHTING",
+        "power": 8.0,
+        "durationTurns": 2,
+        "energyDelta": 7
+      }
+    },
+    {
+      "templateId": "COMBAT_V0024_MOVE_MUD_SHOT_FAST",
+      "combatMove": {
+        "uniqueId": "MUD_SHOT_FAST",
+        "type": "POKEMON_TYPE_GROUND",
+        "power": 3.0,
+        "durationTurns": 1,
+        "energyDelta": 9
+      }
+    },
+    {
+      "templateId": "COMBAT_V0081_MOVE_ICE_PUNCH",
+      "combatMove": {
+        "uniqueId": "ICE_PUNCH",
+        "type": "POKEMON_TYPE_ICE",
+        "power": 55,
+        "energyDelta": -40
+      }
+    },
+    {
+      "templateId": "COMBAT_V0203_MOVE_DYNAMIC_PUNCH",
+      "combatMove": {
+        "uniqueId": "DYNAMIC_PUNCH",
+        "type": "POKEMON_TYPE_FIGHTING",
+        "power": 90,
+        "energyDelta": -50
+      }
+    },
+    {
+      "templateId": "COMBAT_V0121_MOVE_ROCK_SLIDE",
+      "combatMove": {
+        "uniqueId": "ROCK_SLIDE",
+        "type": "POKEMON_TYPE_ROCK",
+        "power": 75,
+        "energyDelta": -45
+      }
+    },
+    {
+      "templateId": "COMBAT_V0036_MOVE_EARTHQUAKE",
+      "combatMove": {
+        "uniqueId": "EARTHQUAKE",
+        "type": "POKEMON_TYPE_GROUND",
+        "power": 120,
+        "energyDelta": -65
+      }
+    },
+    {
+      "templateId": "COMBAT_V0240_MOVE_BUBBLE_FAST",
+      "combatMove": {
+        "uniqueId": "BUBBLE_FAST",
+        "type": "POKEMON_TYPE_WATER",
+        "power": 7,
+        "energyDelta": 11
+      }
+    },
+    {
+      "templateId": "COMBAT_V0058_MOVE_ICE_BEAM",
+      "combatMove": {
+        "uniqueId": "ICE_BEAM",
+        "type": "POKEMON_TYPE_ICE",
+        "power": 90,
+        "energyDelta": -55
+      }
+    },
+    {
+      "templateId": "COMBAT_V0295_MOVE_PLAY_ROUGH",
+      "combatMove": {
+        "uniqueId": "PLAY_ROUGH",
+        "type": "POKEMON_TYPE_FAIRY",
+        "power": 90,
+        "energyDelta": -60
+      }
+    },
+    {
+      "templateId": "COMBAT_V0278_MOVE_LOCK_ON_FAST",
+      "combatMove": {
+        "uniqueId": "LOCK_ON_FAST",
+        "type": "POKEMON_TYPE_NORMAL",
+        "power": 1,
+        "energyDelta": 5
+      }
+    },
+    {
+      "templateId": "COMBAT_V0299_MOVE_FOCUS_BLAST",
+      "combatMove": {
+        "uniqueId": "FOCUS_BLAST",
+        "type": "POKEMON_TYPE_FIGHTING",
+        "power": 150,
+        "energyDelta": -75
+      }
+    },
+    {
+      "templateId": "COMBAT_V0231_MOVE_FLASH_CANNON",
+      "combatMove": {
+        "uniqueId": "FLASH_CANNON",
+        "type": "POKEMON_TYPE_STEEL",
+        "power": 110,
+        "energyDelta": -65
+      }
+    },
+    {
+      "templateId": "COMBAT_V0306_MOVE_HYDRO_CANNON",
+      "combatMove": {
+        "uniqueId": "HYDRO_CANNON",
+        "type": "POKEMON_TYPE_WATER",
+        "power": 80,
+        "energyDelta": -40
+      }
+    },
+    {
+      "templateId": "COMBAT_V0237_MOVE_INCINERATE_FAST",
+      "combatMove": {
+        "uniqueId": "INCINERATE_FAST",
+        "type": "POKEMON_TYPE_FIRE",
+        "power": 15,
+        "energyDelta": 20
+      }
+    },
+    {
+      "templateId": "COMBAT_V0230_MOVE_BRAVE_BIRD",
+      "combatMove": {
+        "uniqueId": "BRAVE_BIRD",
+        "type": "POKEMON_TYPE_FLYING",
+        "power": 130,
+        "energyDelta": -55
+      }
+    },
+    {
+      "templateId": "COMBAT_V0236_MOVE_FLAME_CHARGE",
+      "combatMove": {
+        "uniqueId": "FLAME_CHARGE",
+        "type": "POKEMON_TYPE_FIRE",
+        "power": 65,
+        "energyDelta": -50
+      }
+    },
+    {
+      "templateId": "TYPE_EFFECTIVE_FIGHTING",
+      "typeEffective": {
+        "attackType": "POKEMON_TYPE_FIGHTING",
+        "attackScalar": {
+          "normal": 1.6,
+          "rock": 1.6,
+          "steel": 1.6,
+          "ice": 1.6,
+          "dark": 1.6,
+          "fighting": 1.0,
+          "poison": 0.625,
+          "bug": 0.625,
+          "psychic": 0.625,
+          "ghost": 0.390625,
+          "fairy": 0.625,
+          "flying": 0.625
+        }
+      }
+    },
+    {
+      "templateId": "TYPE_EFFECTIVE_GROUND",
+      "typeEffective": {
+        "attackType": "POKEMON_TYPE_GROUND",
+        "attackScalar": {
+          "fire": 1.6,
+          "electric": 1.6,
+          "poison": 1.6,
+          "rock": 1.6,
+          "steel": 1.6,
+          "grass": 0.625,
+          "bug": 0.625,
+          "flying": 0.390625
+        }
+      }
+    },
+    {
+      "templateId": "TYPE_EFFECTIVE_FAIRY",
+      "typeEffective": {
+        "attackType": "POKEMON_TYPE_FAIRY",
+        "attackScalar": {
+          "dragon": 1.6,
+          "dark": 1.6,
+          "fighting": 1.6,
+          "fire": 0.625,
+          "poison": 0.625,
+          "steel": 0.625
+        }
+      }
+    },
+    {
+      "templateId": "TYPE_EFFECTIVE_ICE",
+      "typeEffective": {
+        "attackType": "POKEMON_TYPE_ICE",
+        "attackScalar": {
+          "dragon": 1.6,
+          "flying": 1.6,
+          "grass": 1.6,
+          "ground": 1.6,
+          "fire": 0.625,
+          "water": 0.625,
+          "ice": 0.625,
+          "steel": 0.625
+        }
+      }
+    },
+    {
+      "templateId": "TYPE_EFFECTIVE_WATER",
+      "typeEffective": {
+        "attackType": "POKEMON_TYPE_WATER",
+        "attackScalar": {
+          "fire": 1.6,
+          "ground": 1.6,
+          "rock": 1.6,
+          "grass": 0.625,
+          "dragon": 0.625,
+          "water": 0.625
+        }
+      }
+    },
+    {
+      "templateId": "TYPE_EFFECTIVE_FIRE",
+      "typeEffective": {
+        "attackType": "POKEMON_TYPE_FIRE",
+        "attackScalar": {
+          "bug": 1.6,
+          "grass": 1.6,
+          "ice": 1.6,
+          "steel": 1.6,
+          "fire": 0.625,
+          "water": 0.625,
+          "rock": 0.625,
+          "dragon": 0.625
+        }
+      }
+    },
+    {
+      "templateId": "TYPE_EFFECTIVE_STEEL",
+      "typeEffective": {
+        "attackType": "POKEMON_TYPE_STEEL",
+        "attackScalar": {
+          "fairy": 1.6,
+          "ice": 1.6,
+          "rock": 1.6,
+          "fire": 0.625,
+          "water": 0.625,
+          "electric": 0.625,
+          "steel": 0.625
+        }
+      }
+    },
+    {
+      "templateId": "TYPE_EFFECTIVE_FLYING",
+      "typeEffective": {
+        "attackType": "POKEMON_TYPE_FLYING",
+        "attackScalar": {
+          "bug": 1.6,
+          "fighting": 1.6,
+          "grass": 1.6,
+          "electric": 0.625,
+          "rock": 0.625,
+          "steel": 0.625
+        }
+      }
+    },
+    {
+      "templateId": "TYPE_EFFECTIVE_PSYCHIC",
+      "typeEffective": {
+        "attackType": "POKEMON_TYPE_PSYCHIC",
+        "attackScalar": {
+          "fighting": 1.6,
+          "poison": 1.6,
+          "dark": 0.390625,
+          "steel": 0.625,
+          "psychic": 0.625
+        }
+      }
+    }
+  ]
+}

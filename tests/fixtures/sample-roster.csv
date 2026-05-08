@@ -1,0 +1,7 @@
+species,attack_iv,defense_iv,stamina_iv,level,fast_move,charge_move_1,charge_move_2,nickname,notes
+Medicham,1,15,14,40.5,COUNTER,ICE_PUNCH,DYNAMIC_PUNCH,Wall-breaker,GL anchor
+Galarian Stunfisk,0,14,13,41,MUD_SHOT,ROCK_SLIDE,EARTHQUAKE,,
+Swampert,2,15,15,40,MUD_SHOT,HYDRO_CANNON,EARTHQUAKE,,
+Azumarill,0,14,15,46,BUBBLE,ICE_BEAM,PLAY_ROUGH,Marill-2,
+Registeel,3,15,15,27.5,LOCK_ON,FOCUS_BLAST,FLASH_CANNON,,bulky pivot
+Talonflame,0,12,15,40,INCINERATE,BRAVE_BIRD,FLAME_CHARGE,,
